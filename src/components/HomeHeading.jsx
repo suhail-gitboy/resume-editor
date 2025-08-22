@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router";
-import "./Homeheading.css";
+import "./HomeHeading.css";
 const HomeHeading = () => {
   return (
     <div className="main">
