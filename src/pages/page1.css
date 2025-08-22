@@ -1,0 +1,18 @@
+.page1 {
+  display: "block";
+  flex-direction: "column";
+  background-color: var(--background-color);
+}
+main {
+  display: flex;
+  background-color: var(--background-color);
+  flex-direction: column;
+  min-height: 200vh;
+
+  margin-bottom: 100px;
+}
+footer {
+  bottom: 0;
+  height: 100px;
+  background-color: aliceblue;
+}

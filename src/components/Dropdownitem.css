@@ -1,0 +1,14 @@
+.dropli {
+  display: flex;
+  justify-content: center;
+  background-color: var(--subtext-color);
+  align-items: center;
+}
+.dropli img {
+  width: 20px;
+  height: 20px;
+  color: bisque;
+}
+li {
+  margin: 0;
+}

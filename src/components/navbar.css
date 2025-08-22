@@ -1,0 +1,32 @@
+.nav .ul {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--background-color);
+  justify-content: space-between;
+  text-align: center;
+  float: right;
+  width: 60vh;
+}
+.nav .ul li {
+  list-style-type: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+
+  padding: 12px;
+  text-align: center;
+  border-radius: 12px;
+}
+.nav {
+  width: 70vh;
+}
+.nav .ul li:hover {
+  background-color: var(--subtext-color);
+}
+.active {
+  background-color: var(--subtext-color);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  border-radius: 12px;
+  text-align: center;
+  margin-right: 0;
+}

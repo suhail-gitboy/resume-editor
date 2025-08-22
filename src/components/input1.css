@@ -1,0 +1,21 @@
+.inputparts {
+  width: 100%;
+  height: 100%;
+  justify-content: flex-start;
+  display: flex;
+  background-color: rgb(242, 242, 254);
+}
+.inputparts input {
+  border: 1px solid var(--sub-textcolor);
+  width: 100%;
+  height: 40px;
+}
+.inputparts input::placeholder {
+  position: absolute;
+  top: 10px;
+}
+.inputparts input[type="text"] {
+  top: 10px;
+  display: flex;
+  justify-content: last flex-start;
+}

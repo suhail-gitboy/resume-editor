@@ -1,0 +1,46 @@
+.sidebar {
+  position: absolute;
+  width: 100px;
+  left: 0;
+  top: 120px;
+  height: 70vh;
+  position: fixed;
+}
+.sidebar h3 {
+  margin: 30px;
+}
+aside {
+  width: 100px;
+  background-color: var(--subtext-color);
+  height: 100%;
+}
+.sidebarul li {
+  padding: 6px;
+  list-style-type: none;
+  text-decoration: none;
+  margin: 6px;
+  transition: background-color 0.2s ease-in-out;
+}
+ul li:hover {
+  background-color: rgb(130, 129, 129);
+}
+aside ul {
+  background-color: var(--subtext-xolor);
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+}
+.aside-hidden {
+  visibility: hidden;
+
+  left: -100px;
+}
+.aside-visible {
+  visibility: visible;
+  position: fixed;
+  transition: left 0.3s ease-in-out;
+  left: 0px;
+}
+.No-underline {
+  text-decoration: none;
+}

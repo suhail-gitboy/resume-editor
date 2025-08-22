@@ -1,0 +1,49 @@
+.subdivappeditor {
+  min-height: 100vh;
+  display: flex;
+  width: 100vw;
+  flex-direction: row;
+  background-color: var(--background-color);
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+  gap: 40px;
+  padding-bottom: 50px;
+}
+.appeditor h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 45px;
+  color: var(--text-color);
+}
+.resumetypeclass {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+  height: 50px;
+  background-color: var(--background-color);
+
+  border: none;
+  text-align: center;
+}
+.resumetypeclass h3 {
+  border: 1px solid var(--text-color);
+  padding: 20px;
+  gap: 20px;
+  width: 400px;
+}
+.appeditor {
+  margin-top: 100px;
+  height: 150vh;
+  background-color: var(--background-color);
+  padding-top: 50px;
+}
+.headings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}

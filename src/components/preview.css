@@ -1,0 +1,23 @@
+.preview {
+  height: 900px;
+  width: 50%;
+   border: 1px solid #212121;
+   margin-top: 30px;
+}
+.cvpreview {
+  
+  width: 100%;
+  
+
+  height: 100%;
+  margin-bottom: 100px;
+ 
+}
+.cvpreview ul {
+  background-color: #212121;
+  list-style-type: none;
+}
+.preview h1 {
+  margin: 40px;
+  padding: 0px;
+}
