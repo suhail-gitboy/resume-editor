@@ -3,7 +3,7 @@ import { Link, Outlet } from "react-router";
 import "./Resumeediting.css";
 import Preview from "../components/Preview";
 import Resumeinput from "../components/input";
-import Sidebar from "../components/sidebar";
+
 const Resumeediting = ({ resumes, Setresume, editIndex, SeteditIndex }) => {
   const [show, Setshow] = useState(false);
   const [resumetype, Setresumetype] = useState("atsfriendly");
@@ -38,7 +38,7 @@ const Resumeediting = ({ resumes, Setresume, editIndex, SeteditIndex }) => {
         <h3 onClick={() => Setresumetype("atsfriendly")}>Ats Friendly</h3>
       </div>
 
-      <Sidebar show={show} HandleClick={HandleClick} />
+
 
       <div className="subdivappeditor">
         <Resumeinput
