@@ -91,6 +91,7 @@ const Resumeinput = ({ resumedata, Setresumedata, Setloading }) => {
           <Inputsone
             Handlechange={HandlepersonalInfo}
             resumedata={resumedata}
+            Setinputdynamic={Setinputdynamic}
           />
         );
       case "qualifications":

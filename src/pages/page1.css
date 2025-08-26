@@ -7,9 +7,10 @@ main {
   display: flex;
   background-color: var(--background-color);
   flex-direction: column;
-  min-height: 200vh;
+  min-height: 290vh;
+  border-bottom: solid 1px var(--subtext-color);
 
-  margin-bottom: 100px;
+  
 }
 footer {
   bottom: 0;

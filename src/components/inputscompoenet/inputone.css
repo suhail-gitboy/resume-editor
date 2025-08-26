@@ -5,7 +5,14 @@
   flex-direction: column;
   background-color: rgb(31, 31, 31);
   padding: 20px;
+
 }
 .inputmain input {
   width: 100%;
+}
+.btnpersonalInfo{
+  background-color: blueviolet;
+  color: white;
+  font-weight: bolder;
+  margin: 10px 0;
 }

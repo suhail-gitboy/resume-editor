@@ -1,0 +1,49 @@
+.reviewmain{
+    
+    width: 70vw;
+    height: 400px;
+    margin: 0 150px;padding: 40px;transition: none;
+    border: none;
+}
+.card{
+    height: 300px;
+    width: 170px;
+    background-color: rgb(255, 255, 255);border: none;
+    border-radius: 15px;
+    transition: none;margin: 20px;color: black;
+    
+
+}.text{
+    height: 150px;display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+width: 100%;display: block;
+margin-top: 30px;
+}
+.img{
+    width: 100%;
+    height: 100px;
+    background-color: blueviolet;display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}.img img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+}
+
+.img{
+    text-align: center;
+}
+ .paragraph{
+    
+    width: 80%;
+    padding: 25px 20px;
+    height: 80%;
+}
+.slick-slide>div{
+    margin: 0 10px;
+}
