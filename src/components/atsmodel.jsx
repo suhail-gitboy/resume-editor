@@ -1,10 +1,10 @@
-import React from "react";
+import React, { forwardRef } from "react";
 import "./atsfriendly.css"
-const Atsmodel = ({ resumedata }) => {
+const Atsmodel = forwardRef(({ resumedata }, ref) => {
 
 
   return (
-    <div className="ats">
+    <div className="ats" ref={ref}>
       <h1>{resumedata.personalInfo.name}</h1>
       <p>Email: {resumedata.personalInfo.email}</p>
       <p>Phone: {resumedata.personalInfo.phone}</p>
@@ -38,6 +38,6 @@ const Atsmodel = ({ resumedata }) => {
 
     </div>
   );
-};
+});
 
 export default Atsmodel;

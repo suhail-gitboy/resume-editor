@@ -3,7 +3,7 @@ label {
   padding-right: 10px;
 }
 .headername {
-  height: 120px;
+  height: 120px;z-index: 1;
 
   text-align: center;
   display: flex;

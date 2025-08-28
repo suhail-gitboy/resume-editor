@@ -1,11 +1,11 @@
-import React from "react";
+import React, { forwardRef } from "react";
 import "./modern.css"
-const Modern = ({ resumedata }) => {
+const Modern = forwardRef(({ resumedata }, ref) => {
   return (
 
 
 
-    <div class="container">
+    <div class="container" ref={ref}>
       <div class="headermodern">
         <div class="full-name">
           <span class="first-name">{resumedata.personalInfo.name}</span>
@@ -137,6 +137,6 @@ const Modern = ({ resumedata }) => {
 
 
   )
-};
+});
 
 export default Modern;

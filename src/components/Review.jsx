@@ -47,21 +47,21 @@ const Review = () => {
 
     return (
         <div className='reviewmain'>
-            <Slider {...settings}>
-                {
-                    Data.map((datas) => (
-                        <div className='card'>
-                            <div className="img">
-                                <img src={datas.img} alt="" />
-                            </div>
-                            <div className='text'>
-                                <h1 style={{ color: "black" }}>{datas.name}</h1>
-                                <p className='paragraph' style={{ width: "60%" }}>{datas.reviews}</p>
-                            </div>
+
+            <Slider {...settings}>  {
+                Data.map((datas) => (
+                    <div className='card'>
+                        <div className="img">
+                            <img src={datas.img} alt="" />
                         </div>
-                    )
-                    )
-                }</Slider>
+                        <div className='text'>
+                            <h1 style={{ color: "black" }}>{datas.name}</h1>
+                            <p className='paragraph'>{datas.reviews}</p>
+                        </div>
+                    </div>
+                )
+                )
+            }</Slider>
         </div>
     )
 }
